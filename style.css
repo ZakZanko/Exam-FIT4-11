@@ -1,0 +1,352 @@
+/* Шапка */
+.head-title {
+}
+.studio,
+.portfolio {
+  color: var(--first-text-color);
+}
+:root {
+  --first-text-color: #2196f3;
+  --second-text-color: #757575;
+  --thirst-text-color: #ffffff;
+  --first-background-color: #212121;
+  --second-background-color: #f5f4fa;
+  --background-hero-footer-color: #2f303a;
+}
+.header {
+  border-bottom: 1px solid #ececec;
+  display: flex;
+}
+.container-header {
+  display: flex;
+  align-items: center;
+}
+.container-hero {
+  text-align: center;
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+}
+.header-logo-help {
+  color: var(--first-background-color);
+}
+/* Container */
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Навігація */
+.nav {
+}
+.nav-list {
+  display: flex;
+}
+.nav-item {
+  list-style-type: none;
+  margin-right: 50px;
+}
+.nav-item:last-child {
+  margin-right: 0;
+}
+.nav-link {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--first-background-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--first-text-color);
+}
+.header-mailto:hover,
+.header-mailto:focus {
+  color: var(--first-text-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--first-text-color);
+}
+
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.header-mailto {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--second-text-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.header-tel {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--second-text-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.header-mail {
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+}
+.mail-icon {
+  margin-right: 10px;
+  fill: currentColor;
+  padding: 0;
+  list-style-type: none;
+  width: 16px;
+  height: 12px;
+}
+.tellephone-icon {
+  margin-right: 10px;
+  fill: currentColor;
+  padding: 0;
+  list-style-type: none;
+  width: 12px;
+  height: 16px;
+}
+
+.header-tellephone {
+  list-style-type: none;
+  margin-left: 50px;
+  display: flex;
+}
+.main {
+}
+.header-hero {
+  padding-top: 400px;
+  padding-bottom: 400px;
+  background: var(--background-hero-footer-color) no-repeat;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/img/imgonline-com-ua-AutoEnrich-sBKiHQx9nbH.jpg);
+  max-width: 1600px;
+  margin: auto;
+}
+.caption {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--thirst-text-color);
+  letter-spacing: 0.06em;
+  width: 696px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* Кнопка */
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--thirst-text-color);
+  border: 0;
+  background: var(--first-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+}
+.btn:hover,
+.btn:focus {
+  background: #188ce8;
+}
+
+.main-text {
+  padding-bottom: 0;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+}
+
+.main-text__section {
+}
+.global-text {
+  text-align: center;
+  color: #000000;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47.99px;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--background-hero-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--first-text-color);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.footer-address {
+  margin-top: 20px;
+}
+.footer-list {
+  list-style-type: none;
+}
+.footer-iteam {
+  margin-bottom: 10px;
+}
+.footer-iteam:last-child {
+  margin-bottom: 0;
+}
+.map-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--thirst-text-color);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.footer-mail {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.footer-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-flex {
+  margin-right: 70px;
+}
+/* footer second title */
+.footer-second-title {
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 206px;
+  height: 80px;
+}
+
+.footer-icon-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.footer-text {
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-second-iteam {
+  margin-right: 10px;
+  display: flex;
+}
+.footer-second-iteam:last-child {
+  margin-right: 0;
+}
+.footer-link-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-link-icon:hover,
+.footer-link-icon:focus {
+  background-color: #2196f3;
+}
+.footer-icon {
+  fill: currentColor;
+}
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--first-text-color);
+}
+.footer-title-help {
+  color: var(--thirst-text-color);
+}
+.portfolio-link-item {
+  text-decoration: none;
+}
+
+/* Скидання */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
